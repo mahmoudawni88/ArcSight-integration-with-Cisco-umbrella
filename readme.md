@@ -14,7 +14,7 @@ In order to use the script:
 2- The script is built to parse Cisco Umbrella logs from the web & map the output CSV into CEF format then deliver it to ArcSight as a CEF file.  
 3- API call to fetch all logs between the current moment and the last 15 mins.
 
-# Instriction:
+# Instruction:
 install all the required package:
 pip install -r rrequirement.txt
 python cisco_umbrella -o <organization_id>
