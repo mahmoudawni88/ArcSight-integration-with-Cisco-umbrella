@@ -15,6 +15,10 @@ In order to use the script:
 3- API call to fetch all logs between the current moment and the last 15 mins.
 
 # Instruction:
-install all the required package:             
-pip install -r requirements.txt                  
-python cisco_umbrella -o <organization_id>                   
+install all the required package:   
+pip install -r rrequirement.txt    
+python cisco_umbrella -o <organization_id>    
+
+# Full scenario for integration with cisco umbrella:   
+1- Schedule cisco umbrella script to run every 15 minutes.      
+2- Install cef_multifolder_file smart connector to read the generated CEF file from the script & send it to ESM & logger destinations.                
