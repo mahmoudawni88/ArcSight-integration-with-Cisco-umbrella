@@ -16,5 +16,5 @@ In order to use the script:
 
 # Instruction:
 install all the required package:             
-pip install -r rrequirement.txt                  
+pip install -r requirements.txt                  
 python cisco_umbrella -o <organization_id>                   
